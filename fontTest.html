@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+@font-face {
+    font-family: myFirstFont;
+    src: url("ttf/Mark Simonson-Proxima Nova Alt Black.ttf");
+}
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('eot/Mark Simonson - Proxima Nova Alt Light.eot'); /* IE9 Compat Modes */
+  src: url('eot/Mark Simonson - Proxima Nova Alt Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('woff2/Mark Simonson - Proxima Nova Alt Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('woff/Mark Simonson - Proxima Nova Alt Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('ttf/Mark Simonson - Proxima Nova Alt Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('svg/Mark Simonson - Proxima Nova Alt Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+div {
+    font-family: MyWebFont;
+}
+</style>
+</head>
+<body>
+
+<div>The quick brown fox jumps over the lazy dog.
+	With CSS3, websites can finally use fonts other than the pre selected "web-safe" fonts.</div>
+
+<p><b>Note:</b> Internet Explorer 8 and earlier, do not support the @font-face rule with the WOFF format (only support for EOT format).</p>
+
+</body>
+</html>
